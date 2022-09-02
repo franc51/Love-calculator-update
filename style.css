@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('pex.jpg');
+    background-size: 200vh;
+}
+
+.container {
+    width: 60vw;
+    height: 70vh;
+    background-image: linear-gradient(to right, rgb(255, 81, 81), rgb(136, 136, 255));
+    border-radius: 10px;
+    font-family: 'Pangolin';
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    font-size: 30px;
+    box-shadow: 2px 2px 15px 2px rgb(0, 0, 0);
+}
+
+.upper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+p{
+    padding: 0;
+    margin: 0;
+}
+
+.principal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+input {
+    height: 25px;
+    width: 250px;
+    margin: 10px 20px;
+}
+
+button {
+    margin-top: 30px;
+    width: 200px;
+    height: 60px;
+    font-size: 26px;
+    font-family:'Pangolin';
+    background-color: white;
+    border-radius: 10px;
+    border: 0;
+    cursor: pointer;
+    transition: 0.3s ;
+}
+
+button:hover{
+    background-color: rgb(27, 25, 25);
+    color: white;
+    font-size: 28px;
+}
+
+
+img {
+    height: 50px;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+#heart {
+    display: none;
+}
+
+#sad {
+    display: none;
+}
